@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2296
+
+Syntax includes:
+- coloring numbers / usernames
+- folding with first line of packet in summary
+- coloring 'important' and other headers
+- coloring for standard possible problems (lack of username or domain, incorrect method, private ips)
+- marking 4XX, 5XX, 6XX statuses
+
+Designed looking at capture produced by `ngrep -q -tt -W byline udp and port 5060` or similar.
